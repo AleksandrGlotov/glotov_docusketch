@@ -1,0 +1,1 @@
+export const iconsList: string[] = ["flag", "store", "tags", "marker", "ship", "wrench", "hammer", "cube", "medal", "house", "user", "check", "image", "phone", "location", "star", "bomb", "heart", "poo", "bolt",]

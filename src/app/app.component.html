@@ -1,0 +1,9 @@
+<main class="wrapper">
+  <button [disabled]="isBlocked" (click)="RandomIcon(icons)">
+      {{isBlocked ? "Waiting" : "Show random icon"}}
+  </button>
+  <div class="icon-container">
+      <fa-icon *ngIf="icon && !isBlocked" size="4x" [icon]="['fas', icon]"></fa-icon>
+      <fa-icon *ngIf="isBlocked" [spin]="true" size="4x" [icon]="['fas', 'spinner']"></fa-icon>
+  </div>
+</main>
